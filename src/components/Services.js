@@ -8,9 +8,9 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            custom furniture
+            helping your reality
             <br />
-            built only for you
+            catch up with your dreams
           </h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta

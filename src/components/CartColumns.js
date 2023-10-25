@@ -26,8 +26,8 @@ const Wrapper = styled.div`
       justify-items: center;
       column-gap: 1rem;
       h5 {
-        color: var(--clr-grey-5);
-        font-weight: 400;
+        color: var(--clr-grey-4);
+        font-weight: 600;
       }
     }
 

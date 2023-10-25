@@ -42,7 +42,7 @@ const Filters = () => {
           <div className="form-control">
             <h5>category</h5>
             <div>
-              {categories.map((c, index) => {
+              {categories.sort().map((c, index) => {
                 return (
                   <button
                     key={index}
@@ -166,6 +166,10 @@ const Wrapper = styled.section`
     letter-spacing: var(--spacing);
     color: var(--clr-grey-5);
     cursor: pointer;
+  }
+  .filter-text {
+    text-align: left;
+    margin: 0;
   }
   .active {
     border-color: var(--clr-grey-5);

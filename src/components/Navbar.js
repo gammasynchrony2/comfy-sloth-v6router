@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { links } from "../utils/constants";
-import CartButtons from "./CartButtons";
+import { CartButtons, Logo } from "../components";
 import { useProductsContext } from "../context/products_context";
 import { useUserContext } from "../context/user_context";
 
@@ -16,7 +15,7 @@ const Nav = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="comfy sloth" />
+            <Logo />
           </Link>
           <button
             type="button"
@@ -73,7 +72,7 @@ const NavContainer = styled.nav`
   .nav-toggle {
     background: transparent;
     border: transparent;
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-3);
     cursor: pointer;
     svg {
       font-size: 2rem;

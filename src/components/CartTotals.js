@@ -54,7 +54,9 @@ const Wrapper = styled.section`
     grid-template-columns: 200px 1fr;
   }
   p {
+    font-family: "Britney", cursive;
     text-transform: capitalize;
+    font-weight: 600;
   }
   h4 {
     margin-top: 2rem;

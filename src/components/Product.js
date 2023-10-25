@@ -39,7 +39,7 @@ const Wrapper = styled.article`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: var(--clr-primary-5);
+    background: var(--clr-primary-3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +73,7 @@ const Wrapper = styled.article`
   }
 
   footer p {
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-3);
     letter-spacing: var(--spacing);
   }
 `;

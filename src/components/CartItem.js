@@ -99,7 +99,8 @@ const Wrapper = styled.article`
     }
   }
   .price-small {
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-3);
+    font-weight: 700;
   }
   .amount-btns {
     width: 75px;
@@ -132,7 +133,7 @@ const Wrapper = styled.article`
       display: block;
       margin-bottom: 0;
       color: var(--clr-grey-5);
-      font-weight: 400;
+      font-weight: 700;
       font-size: 1rem;
     }
     .price-small {
@@ -141,8 +142,8 @@ const Wrapper = styled.article`
     .price {
       display: block;
       font-size: 1rem;
-      color: var(--clr-primary-5);
-      font-weight: 400;
+      color: var(--clr-primary-3);
+      font-weight: 700;
     }
     .name {
       font-size: 0.85rem;
